@@ -1,7 +1,7 @@
 .leftContainer {
   width: calc(50% - 90px);
   float: left;
-  margin: 0 60px; //Full width on small screen
+  margin: 0 60px 60px; //Full width on small screen
   @media (max-width: 990px) {
     & {
       width: unset;
