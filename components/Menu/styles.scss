@@ -1,5 +1,8 @@
 .menu {
   padding-top: 50px;
+  @media (max-width: 990px) {
+    padding-top: 20px;
+  }
   a {
     font-size: 17px;
     font-weight: 600;

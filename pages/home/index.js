@@ -12,7 +12,7 @@ import RightContainer from "@components/RightContainer";
 import styles from "./styles.scss";
 
 const Home = props => (
-  <div id="Home">
+  <div className={styles.home}>
     <LeftContainer>
       <Head title="Ross Waycaster" />
       <Menu />

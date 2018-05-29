@@ -28,6 +28,9 @@
       @media (min-width: 990px) {
         display: inline-block;
       }
+      @media (max-width: 990px) {
+        font-size: 17px;
+      }
     }
   }
   .description {
@@ -42,6 +45,9 @@
     a {
       color: unset;
       text-decoration: none;
+    }
+    @media (max-width: 990px) {
+      font-size: 16px;
     }
   }
 }

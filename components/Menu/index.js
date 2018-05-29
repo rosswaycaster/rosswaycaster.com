@@ -1,7 +1,16 @@
 import Link from "next/link";
 import { withRouter } from "next/router";
+import NProgress from "nprogress";
+import Router from "next/router";
 
 import styles from "./styles.scss";
+
+Router.onRouteChangeStart = url => {
+  console.log(`Loading: ${url}`);
+  NProgress.start();
+};
+Router.onRouteChangeComplete = () => NProgress.done();
+Router.onRouteChangeError = () => NProgress.done();
 
 const ActiveLink = withRouter(({ children, router, href }) => {
   return (
