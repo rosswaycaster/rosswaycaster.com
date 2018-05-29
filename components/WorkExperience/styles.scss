@@ -1,0 +1,51 @@
+.work {
+  padding-top: 35px;
+
+  .business {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #241e1e;
+    text-decoration: none;
+  }
+
+  .meta {
+    padding-bottom: 8px;
+    color: #686868;
+    font-size: 19px;
+
+    .position {
+      color: #0f77ff;
+      padding: 0;
+      @media (min-width: 990px) {
+        display: inline-block;
+      }
+    }
+
+    .pipe {
+      display: none;
+      @media (min-width: 990px) {
+        display: inline-block;
+      }
+    }
+
+    .duration {
+      @media (min-width: 990px) {
+        display: inline-block;
+      }
+    }
+  }
+  .responsibilities {
+    font-size: 18px;
+
+    ul {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    a {
+      color: unset;
+      text-decoration: none;
+    }
+  }
+}

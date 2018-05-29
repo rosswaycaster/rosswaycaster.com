@@ -1,0 +1,17 @@
+#RightContainer {
+  background-image: url("/static/ross.jpg");
+  width: calc(50% - 35px);
+  height: 100%;
+  right: 0;
+  top: 0;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /*Hide on small screeen*/
+  @media (max-width: 990px) {
+    & {
+      display: none;
+    }
+  }
+}

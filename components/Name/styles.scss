@@ -1,0 +1,40 @@
+#Name {
+  .name {
+    display: block;
+    position: relative;
+    z-index: 0;
+    line-height: 1.1em;
+    margin-bottom: 5px;
+
+    &::after {
+      display: block;
+      content: "";
+      width: 101%;
+      height: 20%;
+      background: #e7f2ff;
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      z-index: -1;
+      transition: all 100ms ease-in-out;
+      pointer-events: none;
+      transform: translate(0px, 5px);
+    }
+
+    &:hover {
+      &::after {
+        transform: translate(0px, 5px);
+        height: 90%;
+        width: 101%;
+        bottom: 0;
+      }
+    }
+  }
+
+  .position {
+    font-size: 1.4em;
+    font-weight: 600;
+    padding-top: 5px;
+    color: #0f77ff;
+  }
+}
