@@ -1,5 +1,7 @@
-import "./styles.scss";
+import styles from "./styles.scss";
 
-const RightContainer = props => <div id="RightContainer">{props.children}</div>;
+const RightContainer = props => (
+  <div className={styles.rightContainer}>{props.children}</div>
+);
 
 export default RightContainer;

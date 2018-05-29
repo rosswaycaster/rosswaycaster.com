@@ -5,25 +5,30 @@ import Head from "@components/Head";
 import Menu from "@components/Menu";
 import Button from "@components/Button";
 import WorkExperience from "@components/WorkExperience";
+import Education from "@components/Education";
 import LeftContainer from "@components/LeftContainer";
 import RightContainer from "@components/RightContainer";
 
-import "./styles.scss";
+import styles from "./styles.scss";
 
 const Resume = props => (
-  <div id="Resume">
+  <div className={styles.resume}>
     <LeftContainer>
       <Head title="Ross Waycaster | Resume" />
       <Menu />
       <Name data={props.homeData} />
 
-      <div className="label">Work Experience</div>
+      <div className={styles.label}>Work Experience</div>
 
       {props.resumeData.work_experience.map(item => {
         return <WorkExperience key={item.business_name} item={item} />;
       })}
 
-      <div className="label">Education</div>
+      <div className={styles.label}>Education</div>
+
+      {props.resumeData.education.map(item => {
+        return <Education key={item.school_name} item={item} />;
+      })}
 
       <br />
       <br />

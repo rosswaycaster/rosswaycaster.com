@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Hind+Vadodara:300,400,500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-
-.body {
+body {
   font-family: "Hind Vadodara", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #241e1e;
   margin: 0;

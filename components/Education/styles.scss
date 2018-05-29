@@ -1,6 +1,6 @@
-.work {
+.education {
   padding-top: 35px;
-  .business {
+  .school {
     font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
@@ -11,7 +11,7 @@
     padding-bottom: 8px;
     color: #686868;
     font-size: 19px;
-    .position {
+    .degree {
       color: #0f77ff;
       padding: 0;
       @media (min-width: 990px) {
@@ -30,8 +30,11 @@
       }
     }
   }
-  .responsibilities {
+  .description {
     font-size: 18px;
+    p {
+      margin: 0;
+    }
     ul {
       margin: 0;
       padding-left: 22px;

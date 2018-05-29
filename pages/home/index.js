@@ -9,7 +9,7 @@ import Bio from "@components/Bio";
 import LeftContainer from "@components/LeftContainer";
 import RightContainer from "@components/RightContainer";
 
-import "./styles.scss";
+import styles from "./styles.scss";
 
 const Home = props => (
   <div id="Home">

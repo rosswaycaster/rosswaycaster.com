@@ -1,6 +1,5 @@
-#Menu {
+.menu {
   padding-top: 50px;
-
   a {
     font-size: 17px;
     font-weight: 600;
@@ -11,17 +10,15 @@
     color: #241e1e;
     margin-bottom: 35px;
     transition: all 100ms ease-in-out;
-
-    &.selected {
-      background-color: #0f77ff;
-      color: white;
-      box-shadow: 6px 6px #e7f2ff;
-    }
-
     &:not(.selected):hover {
       background-color: #e7f2ff;
       color: #0f77ff;
       box-shadow: 6px 6px #0f77ff;
     }
+  }
+  .selected {
+    background-color: #0f77ff;
+    color: white;
+    box-shadow: 6px 6px #e7f2ff;
   }
 }
