@@ -28,7 +28,7 @@ const ActiveLink = withRouter(({ children, router, href }) => {
 const Menu = props => (
   <div className={styles.menu}>
     <ActiveLink href="/">Home</ActiveLink>
-    <ActiveLink href="/resume">Resume</ActiveLink>
+    <ActiveLink href="/experience">Experience</ActiveLink>
   </div>
 );
 
