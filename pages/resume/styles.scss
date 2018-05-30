@@ -6,4 +6,19 @@
     border-bottom: 5px solid #e7f2ff;
     text-transform: uppercase;
   }
+  .github {
+    opacity: 0.25;
+    position: absolute;
+    bottom: -45px;
+    text-decoration: none;
+    color: black;
+    transition: 200ms all ease-in-out;
+    img {
+      height: 25px;
+      margin-bottom: -7px;
+    }
+    &:hover {
+      opacity: 0.9;
+    }
+  }
 }

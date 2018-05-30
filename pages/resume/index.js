@@ -35,9 +35,16 @@ const Resume = props => (
       <Button href="/static/Ross-Waycaster-Resume.pdf" target="_blank">
         Download Resume
       </Button>
+
       <br />
+
       <br />
-      <br />
+      <a
+        href="https://github.com/rosswaycaster/rosswaycaster.com"
+        className={styles.github}
+      >
+        <img src="/static/github.png" />View website code on GitHub.
+      </a>
     </LeftContainer>
     <RightContainer />
   </div>
