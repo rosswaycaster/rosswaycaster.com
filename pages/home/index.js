@@ -17,12 +17,6 @@ const Home = props => (
       <Head title="Ross Waycaster" />
       <Menu />
       <Bio data={props.homeData} />
-      <a
-        href="https://github.com/rosswaycaster/rosswaycaster.com"
-        className={styles.github}
-      >
-        <img src="/static/github.png" />View website code on GitHub.
-      </a>
     </LeftContainer>
     <RightContainer />
   </div>

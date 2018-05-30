@@ -1,17 +1,1 @@
-.home {
-    .github {
-        opacity: 0.25;
-        position: fixed;
-        bottom: 15px;
-        text-decoration: none;
-        color: black;
-        transition: 200ms all ease-in-out;
-        img {
-            height: 25px;
-            margin-bottom: -7px;
-        }
-        &:hover {
-            opacity: 0.9;
-        }
-    }
-}
+.home {}
