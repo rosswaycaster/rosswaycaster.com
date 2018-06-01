@@ -29,6 +29,7 @@ const Menu = props => (
   <div className={styles.menu}>
     <ActiveLink href="/">Home</ActiveLink>
     <ActiveLink href="/experience">Experience</ActiveLink>
+    {/* <ActiveLink href="/projects">Projects</ActiveLink> */}
   </div>
 );
 
