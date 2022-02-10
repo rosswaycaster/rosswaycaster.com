@@ -12,7 +12,7 @@
     "babel-plugin-module-resolver": "^3.1.1",
     "moment": "^2.22.1",
     "next": "^6.0.3",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "nprogress": "^0.2.0",
     "prismic-javascript": "^1.5.0-beta.3",
     "prismic-reactjs": "^0.3.1",
